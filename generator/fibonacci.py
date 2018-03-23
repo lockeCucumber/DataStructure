@@ -8,10 +8,7 @@ def generat_fib():
         a, b = b, a+b
 
 a = generat_fib()
-
-n = 0
 for i in a:
     print i
-    n += 1
-    if n > 10:
+    if i > 10:
         break
