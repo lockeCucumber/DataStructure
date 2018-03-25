@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
-'给定一个数字list，获取其递增子集中长度最大的长度'
+'''
+给定一个数字list，获取其递增子集中长度最大的长度
+重点在于设定一个dp_list,每个元素作为一个increase_subsequence
+的最后一个元素的子集长度
+'''
 
 def get_length_of_lis(nums):
     '''
