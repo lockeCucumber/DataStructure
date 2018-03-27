@@ -10,7 +10,7 @@ Note: You may not slant the container and n is at least 2.
 
 def get_max_area(height_list):
     max_area = 0
-    l, r = 0, len(height_list-1)
+    l, r = 0, len(height_list)-1
     while l < r:
         area = (r-l) * min(height_list[l], height_list[r])
         if area > max_area:
